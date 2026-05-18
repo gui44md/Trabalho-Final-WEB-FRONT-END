@@ -9,16 +9,16 @@
 
 ---
 
-## 👥 Dupla
+##  Dupla
 
 | Nome | RA |
 |------|----|
-| Guilherme Medina Silva | — |
-| Michel José Freitas Farah | — |
+| Guilherme Medina Silva | 0900074515 |
+| Michel José Freitas Farah | 0900008415 |
 
 ---
 
-## 📋 Descrição do Projeto
+##  Descrição do Projeto
 
 O **WorldStats 26** é uma aplicação front-end moderna inspirada em plataformas esportivas como SofaScore, OneFootball e FIFA.com. A proposta é funcionar como uma vitrine digital que reúne, em uma única interface, tudo sobre a Copa do Mundo 2026:
 
@@ -32,7 +32,7 @@ A interface possui tema escuro, paleta verde/dourado/branco e tipografia esporti
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 | Tecnologia | Versão | Finalidade |
 |------------|--------|------------|
@@ -45,7 +45,7 @@ A interface possui tema escuro, paleta verde/dourado/branco e tipografia esporti
 
 ---
 
-## 📁 Estrutura de Componentes
+##  Estrutura de Componentes
 
 ```
 src/
@@ -67,7 +67,7 @@ src/
 
 ---
 
-## 🚀 Instruções de Execução
+##  Instruções de Execução
 
 ### Pré-requisitos
 
@@ -102,7 +102,7 @@ Os arquivos otimizados serão gerados na pasta `dist/`.
 
 ---
 
-## 🎨 Decisões de Design
+##  Decisões de Design
 
 - **Tema escuro** — padrão das grandes plataformas esportivas, foco no conteúdo
 - **Paleta verde + dourado** — verde remete ao campo de futebol; dourado ao troféu
@@ -112,6 +112,6 @@ Os arquivos otimizados serão gerados na pasta `dist/`.
 
 ---
 
-## 📚 Disciplina
+##  Disciplina
 
 Desenvolvimento Front-End com React — Atividade de componentização e Design System
