@@ -1,0 +1,65 @@
+.diferencial-card {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 20px;
+  height: 100%;
+}
+
+.diferencial-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.diferencial-titulo {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-white);
+  margin: 0 0 6px;
+}
+
+.diferencial-desc {
+  font-size: 0.82rem;
+  color: var(--color-muted2);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* USERS */
+.destaque-users {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.destaque-avatars {
+  display: flex;
+}
+
+.destaque-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-surface2);
+  border: 2px solid var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  margin-right: -8px;
+  position: relative;
+}
+
+.destaque-avatar:last-child { margin-right: 0; }
+
+.destaque-users-text {
+  padding-left: 4px;
+}

@@ -1,0 +1,108 @@
+.card-selecao {
+  position: relative;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-selecao--destaque {
+  border-color: rgba(240, 180, 41, 0.35) !important;
+  box-shadow: var(--shadow-gold) !important;
+}
+
+.card-selecao--destaque:hover {
+  border-color: rgba(240, 180, 41, 0.6) !important;
+}
+
+.card-selecao__badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 10px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  background: rgba(240, 180, 41, 0.1);
+  border: 1px solid rgba(240, 180, 41, 0.25);
+  border-radius: 20px;
+  padding: 2px 8px;
+}
+
+.card-selecao__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.card-selecao__rank {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-selecao__rank-num {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-muted2);
+}
+
+.card-selecao__flag {
+  font-size: 3.4rem;
+  line-height: 1;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.4));
+}
+
+.card-selecao__body {
+  flex: 1;
+}
+
+.card-selecao__name {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-white);
+  margin-bottom: 4px;
+}
+
+.card-selecao__grupo {
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 10px;
+}
+
+.card-selecao__stars {
+  display: flex;
+  gap: 2px;
+}
+
+.card-selecao__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--color-border);
+}
+
+.card-selecao__pts-label {
+  font-size: 0.72rem;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.card-selecao__pts-value {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--color-green);
+}
